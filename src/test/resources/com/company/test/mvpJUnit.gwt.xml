@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="mvp">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.company.test.mvp' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/mvp/greet" class="com.company.test.server.GreetingServiceImpl" />
+
+</module>
