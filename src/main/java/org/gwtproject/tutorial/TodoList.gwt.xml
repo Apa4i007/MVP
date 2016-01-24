@@ -19,6 +19,7 @@
 
   <!-- Other module inherits                                      -->
   <inherits name="com.vaadin.polymer.Elements"/>
+  <inherits name="com.google.gwt.query.Query"/>
   <!-- Specify the app entry point class.                         -->
   <entry-point class='org.gwtproject.tutorial.client.TodoList'/>
 

@@ -1,4 +1,4 @@
-package org.gwtproject.tutorial.client;
+package org.gwtproject.tutorial.client.item;
 
 
 import com.google.gwt.core.shared.GWT;
