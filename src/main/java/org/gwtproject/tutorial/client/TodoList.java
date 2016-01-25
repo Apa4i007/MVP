@@ -5,12 +5,8 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.ui.RootPanel;
 
-import java.util.Arrays;
-
 
 public class TodoList implements EntryPoint {
-
-
     public void onModuleLoad() {
         ContactsServiceAsync rpcService = GWT.create(ContactsService.class);
         HandlerManager eventBus = new HandlerManager(null);
