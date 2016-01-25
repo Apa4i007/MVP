@@ -8,5 +8,18 @@
   <!--<welcome-file-list>-->
     <!--<welcome-file>TodoList.html</welcome-file>-->
   <!--</welcome-file-list>-->
+  <servlet>
+    <servlet-name>contactsServiceServlet</servlet-name>
+    <servlet-class>org.gwtproject.tutorial.server.ContactsServiceImpl</servlet-class>
+  </servlet>
 
+  <servlet-mapping>
+    <servlet-name>contactsServiceServlet</servlet-name>
+    <url-pattern>/todolist/contactsService</url-pattern>
+  </servlet-mapping>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>TodoList.html</welcome-file>
+  </welcome-file-list>
 </web-app>
